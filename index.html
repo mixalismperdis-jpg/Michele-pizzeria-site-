@@ -155,7 +155,7 @@ footer img{height:36px;width:auto}
 .lang:hover{background:rgba(255,255,255,.15)}
 .lang .flag{width:22px;height:14px;border-radius:2px;display:block;flex:none}
 .lang>span{display:inline-flex;align-items:center;gap:6px}
-.lang .cur{display:none}html[lang="el"] .lang .cur[data-l="el"],html[lang="en"] .lang .cur[data-l="en"],html[lang="it"] .lang .cur[data-l="it"]{display:inline-flex}
+.lang .cur{display:none}html[lang="el"] .lang .cur[data-l="el"],html[lang="en"] .lang .cur[data-l="en"],html[lang="it"] .lang .cur[data-l="it"],html[lang="de"] .lang .cur[data-l="de"]{display:inline-flex}
 .langwrap{position:relative}
 .langmenu{position:absolute;right:0;top:calc(100% + 8px);background:#fff;color:#2a1a1b;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.18);padding:6px;min-width:150px;z-index:20}
 .langmenu[hidden]{display:none}
@@ -169,11 +169,11 @@ footer img{height:36px;width:auto}
   <div class="wrap">
     <a class="logo" href="#top" aria-label="Michele, αρχή σελίδας"><img src="img/logo-white.png" alt="Michele! Pizzeria Napoletana"></a>
     <nav aria-label="Κύριο μενού">
-      <a href="#menu" data-en="Menu" data-it="Menù">Μενού</a>
-      <a href="#photos" class="hide-s" data-en="Photos" data-it="Foto">Φωτογραφίες</a>
-      <a href="#about" class="hide-s" data-en="About us" data-it="Chi siamo">Ποιοι είμαστε</a>
-      <a href="#visit" data-en="Contact" data-it="Contatti">Επικοινωνία</a>
-      <div class="langwrap"><button class="lang" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false"><span class="cur" data-l="el"><svg class="flag" viewBox="0 0 27 18" aria-hidden="true"><rect width="27" height="18" fill="#0D5EAF"/><path d="M0 3h27M0 7h27M0 11h27M0 15h27" stroke="#fff" stroke-width="2"/><rect width="10" height="10" fill="#0D5EAF"/><path d="M5 0v10M0 5h10" stroke="#fff" stroke-width="2"/></svg><span>ΕΛ</span></span><span class="cur" data-l="en"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="fgb"><path d="M0 0v30h60V0z"/></clipPath><clipPath id="fgt"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#fgb)"><path d="M0 0v30h60V0z" fill="#012169"/><path d="M0 0l60 30m0-30L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30m0-30L0 30" clip-path="url(#fgt)" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg><span>EN</span></span><span class="cur" data-l="it"><svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg><span>IT</span></span></button><div class="langmenu" id="langMenu" hidden><button type="button" data-set="el" lang="el"><svg class="flag" viewBox="0 0 27 18" aria-hidden="true"><rect width="27" height="18" fill="#0D5EAF"/><path d="M0 3h27M0 7h27M0 11h27M0 15h27" stroke="#fff" stroke-width="2"/><rect width="10" height="10" fill="#0D5EAF"/><path d="M5 0v10M0 5h10" stroke="#fff" stroke-width="2"/></svg>Ελληνικά</button><button type="button" data-set="en" lang="en"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="fgb"><path d="M0 0v30h60V0z"/></clipPath><clipPath id="fgt"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#fgb)"><path d="M0 0v30h60V0z" fill="#012169"/><path d="M0 0l60 30m0-30L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30m0-30L0 30" clip-path="url(#fgt)" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg>English</button><button type="button" data-set="it" lang="it"><svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg>Italiano</button></div></div>
+      <a href="#menu" data-en="Menu" data-it="Menù" data-de="Speisekarte">Μενού</a>
+      <a href="#photos" class="hide-s" data-en="Photos" data-it="Foto" data-de="Fotos">Φωτογραφίες</a>
+      <a href="#about" class="hide-s" data-en="About us" data-it="Chi siamo" data-de="Über uns">Ποιοι είμαστε</a>
+      <a href="#visit" data-en="Contact" data-it="Contatti" data-de="Kontakt">Επικοινωνία</a>
+      <div class="langwrap"><button class="lang" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false"><span class="cur" data-l="el"><svg class="flag" viewBox="0 0 27 18" aria-hidden="true"><rect width="27" height="18" fill="#0D5EAF"/><path d="M0 3h27M0 7h27M0 11h27M0 15h27" stroke="#fff" stroke-width="2"/><rect width="10" height="10" fill="#0D5EAF"/><path d="M5 0v10M0 5h10" stroke="#fff" stroke-width="2"/></svg><span>ΕΛ</span></span><span class="cur" data-l="en"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="fgb"><path d="M0 0v30h60V0z"/></clipPath><clipPath id="fgt"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#fgb)"><path d="M0 0v30h60V0z" fill="#012169"/><path d="M0 0l60 30m0-30L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30m0-30L0 30" clip-path="url(#fgt)" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg><span>EN</span></span><span class="cur" data-l="it"><svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg><span>IT</span></span><span class="cur" data-l="de"><svg class="flag" viewBox="0 0 5 3" aria-hidden="true"><rect width="5" height="1" fill="#000"/><rect y="1" width="5" height="1" fill="#DD0000"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg><span>DE</span></span></button><div class="langmenu" id="langMenu" hidden><button type="button" data-set="el" lang="el"><svg class="flag" viewBox="0 0 27 18" aria-hidden="true"><rect width="27" height="18" fill="#0D5EAF"/><path d="M0 3h27M0 7h27M0 11h27M0 15h27" stroke="#fff" stroke-width="2"/><rect width="10" height="10" fill="#0D5EAF"/><path d="M5 0v10M0 5h10" stroke="#fff" stroke-width="2"/></svg>Ελληνικά</button><button type="button" data-set="en" lang="en"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="fgb"><path d="M0 0v30h60V0z"/></clipPath><clipPath id="fgt"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#fgb)"><path d="M0 0v30h60V0z" fill="#012169"/><path d="M0 0l60 30m0-30L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30m0-30L0 30" clip-path="url(#fgt)" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg>English</button><button type="button" data-set="it" lang="it"><svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></svg>Italiano</button><button type="button" data-set="de" lang="de"><svg class="flag" viewBox="0 0 5 3" aria-hidden="true"><rect width="5" height="1" fill="#000"/><rect y="1" width="5" height="1" fill="#DD0000"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg>Deutsch</button></div></div>
     </nav>
   </div>
 </header>
@@ -184,11 +184,11 @@ footer img{height:36px;width:auto}
     <div class="wrap">
       <div>
         <div class="status"><span class="dot" id="dot"></span><span id="statusText">Δείτε το ωράριο</span></div>
-        <h1 data-en="Neapolitan pizza in Archangelos." data-it="Pizza napoletana ad Archangelos.">Ναπολιτάνικη πίτσα στον Αρχάγγελο.</h1>
-        <p data-en="Soft dough, a puffy crust and a few good ingredients. Visit us or order delivery to Archangelos and Stegna." data-it="Impasto soffice, cornicione alto e pochi ingredienti di qualità. Venite a trovarci o ordinate a domicilio ad Archangelos e Stegna.">Αφράτη ζύμη, φουσκωτή κόρα και λίγα, καλά υλικά. Ελάτε από το μαγαζί ή παραγγείλτε για delivery σε Αρχάγγελο και Στεγνά.</p>
+        <h1 data-en="Neapolitan pizza in Archangelos." data-it="Pizza napoletana ad Archangelos." data-de="Neapolitanische Pizza in Archangelos.">Ναπολιτάνικη πίτσα στον Αρχάγγελο.</h1>
+        <p data-en="Soft dough, a puffy crust and a few good ingredients. Visit us or order delivery to Archangelos and Stegna." data-it="Impasto soffice, cornicione alto e pochi ingredienti di qualità. Venite a trovarci o ordinate a domicilio ad Archangelos e Stegna." data-de="Lockerer Teig, ein luftiger Rand und wenige, gute Zutaten. Besuchen Sie uns oder bestellen Sie mit Lieferung nach Archangelos und Stegna.">Αφράτη ζύμη, φουσκωτή κόρα και λίγα, καλά υλικά. Ελάτε από το μαγαζί ή παραγγείλτε για delivery σε Αρχάγγελο και Στεγνά.</p>
         <div class="btns">
           <a class="btn solid" href="tel:+302244024123">Delivery: 22440 24123</a>
-          <a class="btn" href="#menu" data-en="See the menu" data-it="Guarda il menù">Δείτε το μενού</a>
+          <a class="btn" href="#menu" data-en="See the menu" data-it="Guarda il menù" data-de="Zur Speisekarte">Δείτε το μενού</a>
         </div>
       </div>
     </div>
@@ -197,14 +197,14 @@ footer img{height:36px;width:auto}
   <section class="band paper" id="menu">
     <div class="wrap">
       <div class="menu-head">
-        <h2 data-en="Menu" data-it="Menù">Μενού</h2>
+        <h2 data-en="Menu" data-it="Menù" data-de="Speisekarte">Μενού</h2>
         <div class="menu-side">
         <div class="tabs" role="tablist" aria-label="Κατηγορίες μενού">
-          <button class="tab" role="tab" id="tab-pizza" aria-selected="true" data-cat="pizza" data-en="Pizzas" data-it="Pizze">Πίτσες</button>
-          <button class="tab" role="tab" id="tab-salad" aria-selected="false" data-cat="salad" data-en="Salads" data-it="Insalate">Σαλάτες</button>
-          <button class="tab" role="tab" id="tab-sweet" aria-selected="false" data-cat="sweet" data-en="Desserts" data-it="Dolci">Γλυκά</button>
+          <button class="tab" role="tab" id="tab-pizza" aria-selected="true" data-cat="pizza" data-en="Pizzas" data-it="Pizze" data-de="Pizzen">Πίτσες</button>
+          <button class="tab" role="tab" id="tab-salad" aria-selected="false" data-cat="salad" data-en="Salads" data-it="Insalate" data-de="Salate">Σαλάτες</button>
+          <button class="tab" role="tab" id="tab-sweet" aria-selected="false" data-cat="sweet" data-en="Desserts" data-it="Dolci" data-de="Desserts">Γλυκά</button>
         </div>
-          <p class="eyebrow sub" id="pizzaSize" data-en="All pizzas are 36 cm" data-it="Tutte le pizze sono da 36 cm">Όλες οι πίτσες είναι 36 εκ.</p>
+          <p class="eyebrow sub" id="pizzaSize" data-en="All pizzas are 36 cm" data-it="Tutte le pizze sono da 36 cm" data-de="Alle Pizzen haben 36 cm">Όλες οι πίτσες είναι 36 εκ.</p>
         </div>
       </div>
       <div class="items" id="items" role="tabpanel"></div>
@@ -213,7 +213,7 @@ footer img{height:36px;width:auto}
 
   <section class="band" id="photos">
     <div class="wrap">
-      <h2 data-en="Photos" data-it="Foto">Φωτογραφίες</h2>
+      <h2 data-en="Photos" data-it="Foto" data-de="Fotos">Φωτογραφίες</h2>
       <div class="gallery" id="gallery">
         <figure><img src="img/g-margherita.jpg" alt="Margherita με φουσκωτή κόρα" loading="lazy"><figcaption>Margherita</figcaption></figure>
         <figure><img src="img/g-mortadella.jpg" alt="Mortadella με πέστο άνηθου και φυστίκι" loading="lazy"><figcaption>Mortadella</figcaption></figure>
@@ -235,20 +235,20 @@ footer img{height:36px;width:auto}
         <figure class="more"><img src="img/g2-pfunghi.jpg" alt="Chicken BBQ από κοντά" loading="lazy"><figcaption>Chicken BBQ</figcaption></figure>
         <figure class="more"><img src="img/g2-bbq.jpg" alt="Πίτσα Salame" loading="lazy"><figcaption>Salame</figcaption></figure>
       </div>
-      <div class="more-wrap"><button class="btn dark" id="moreBtn" type="button" aria-expanded="false" aria-controls="gallery"><span class="m-more" data-en="See more photos" data-it="Vedi altre foto">Δείτε περισσότερες φωτογραφίες</span><span class="m-less" data-en="Show fewer" data-it="Mostra meno">Λιγότερες φωτογραφίες</span></button></div>
+      <div class="more-wrap"><button class="btn dark" id="moreBtn" type="button" aria-expanded="false" aria-controls="gallery"><span class="m-more" data-en="See more photos" data-it="Vedi altre foto" data-de="Mehr Fotos ansehen">Δείτε περισσότερες φωτογραφίες</span><span class="m-less" data-en="Show fewer" data-it="Mostra meno" data-de="Weniger anzeigen">Λιγότερες φωτογραφίες</span></button></div>
     </div>
   </section>
 
   <section class="band paper about" id="about">
     <div class="wrap">
       <div>
-        <div class="eyebrow" data-en="About us" data-it="Chi siamo">Ποιοι είμαστε</div>
-        <h2 data-en="Neapolitan pizza, signed by Michele" data-it="Pizza napoletana, firmata Michele">Ναπολιτάνικη πίτσα, με την υπογραφή του Michele</h2>
-        <p data-en="Michele! That’s what they would call me in Naples. I’m Michalis, and every day I stretch by hand the dough we prepared two days earlier. In 2025 I brought Neapolitan pizza to Archangelos, and I want every pizza to come out as if I were making it for my family." data-it="Michele! Così mi chiamerebbero a Napoli. Sono Michalis e ogni giorno stendo a mano l’impasto preparato due giorni prima. Nel 2025 ho portato la pizza napoletana ad Archangelos, e voglio che ogni pizza venga fuori come se la facessi per la mia famiglia.">Michele! Έτσι θα με φώναζαν στη Νάπολη. Είμαι ο Μιχάλης και κάθε μέρα ανοίγω με τα χέρια μου τη ζύμη που ετοιμάσαμε δύο μέρες πριν. Το 2025 έφερα τη ναπολιτάνικη πίτσα στον Αρχάγγελο, και θέλω κάθε πίτσα να βγαίνει σαν να την έφτιαχνα για την οικογένειά μου.</p>
-        <p data-en="Our dough is made with biga, the Italian pre-ferment, and rises for 48 hours, so it comes out light, airy and easy to digest. It is stretched by hand, spun on the finger and baked fast in a very hot oven, just like in Naples. Tomato, mozzarella, basil and nothing more." data-it="Il nostro impasto è fatto con la biga e matura 48 ore, per essere leggero, soffice e digeribile. Viene steso a mano, fatto girare sul dito e cotto velocemente in un forno caldissimo, proprio come a Napoli. Pomodoro, mozzarella, basilico e niente di superfluo.">Η ζύμη μας γίνεται με biga, το ιταλικό προζύμι, και ωριμάζει 48 ώρες, για να βγαίνει ελαφριά, αφράτη και εύπεπτη. Ανοίγει στο χέρι, γυρίζει στο δάχτυλο και ψήνεται γρήγορα σε πολύ ζεστό φούρνο, όπως στη Νάπολη. Ντομάτα, μοτσαρέλα, βασιλικός και τίποτα περιττό.</p>
+        <div class="eyebrow" data-en="About us" data-it="Chi siamo" data-de="Über uns">Ποιοι είμαστε</div>
+        <h2 data-en="Neapolitan pizza, signed by Michele" data-it="Pizza napoletana, firmata Michele" data-de="Neapolitanische Pizza mit Micheles Handschrift">Ναπολιτάνικη πίτσα, με την υπογραφή του Michele</h2>
+        <p data-en="Michele! That’s what they would call me in Naples. I’m Michalis, and every day I stretch by hand the dough we prepared two days earlier. In 2025 I brought Neapolitan pizza to Archangelos, and I want every pizza to come out as if I were making it for my family." data-it="Michele! Così mi chiamerebbero a Napoli. Sono Michalis e ogni giorno stendo a mano l’impasto preparato due giorni prima. Nel 2025 ho portato la pizza napoletana ad Archangelos, e voglio che ogni pizza venga fuori come se la facessi per la mia famiglia." data-de="Michele! So würde man mich in Neapel nennen. Ich bin Michalis und ziehe jeden Tag von Hand den Teig aus, den wir zwei Tage zuvor angesetzt haben. 2025 habe ich die neapolitanische Pizza nach Archangelos gebracht, und jede Pizza soll so werden, als würde ich sie für meine Familie backen.">Michele! Έτσι θα με φώναζαν στη Νάπολη. Είμαι ο Μιχάλης και κάθε μέρα ανοίγω με τα χέρια μου τη ζύμη που ετοιμάσαμε δύο μέρες πριν. Το 2025 έφερα τη ναπολιτάνικη πίτσα στον Αρχάγγελο, και θέλω κάθε πίτσα να βγαίνει σαν να την έφτιαχνα για την οικογένειά μου.</p>
+        <p data-en="Our dough is made with biga, the Italian pre-ferment, and rises for 48 hours, so it comes out light, airy and easy to digest. It is stretched by hand, spun on the finger and baked fast in a very hot oven, just like in Naples. Tomato, mozzarella, basil and nothing more." data-it="Il nostro impasto è fatto con la biga e matura 48 ore, per essere leggero, soffice e digeribile. Viene steso a mano, fatto girare sul dito e cotto velocemente in un forno caldissimo, proprio come a Napoli. Pomodoro, mozzarella, basilico e niente di superfluo." data-de="Unser Teig wird mit Biga, dem italienischen Vorteig, angesetzt und reift 48 Stunden, damit er leicht, luftig und bekömmlich wird. Er wird von Hand ausgezogen, über dem Finger gedreht und im sehr heißen Ofen schnell gebacken, genau wie in Neapel. Tomate, Mozzarella, Basilikum und nichts Überflüssiges.">Η ζύμη μας γίνεται με biga, το ιταλικό προζύμι, και ωριμάζει 48 ώρες, για να βγαίνει ελαφριά, αφράτη και εύπεπτη. Ανοίγει στο χέρι, γυρίζει στο δάχτυλο και ψήνεται γρήγορα σε πολύ ζεστό φούρνο, όπως στη Νάπολη. Ντομάτα, μοτσαρέλα, βασιλικός και τίποτα περιττό.</p>
         <div class="facts">
-          <div data-en="&lt;b&gt;2025&lt;/b&gt;opened" data-it="&lt;b&gt;2025&lt;/b&gt;apertura"><b>2025</b>ανοίξαμε</div>
-          <div data-en="&lt;b&gt;48 hours&lt;/b&gt;dough rising" data-it="&lt;b&gt;48 ore&lt;/b&gt;di maturazione"><b>48 ώρες</b>ωρίμανση ζύμης</div>
+          <div data-en="&lt;b&gt;2025&lt;/b&gt;opened" data-it="&lt;b&gt;2025&lt;/b&gt;apertura" data-de="&lt;b&gt;2025&lt;/b&gt;eröffnet"><b>2025</b>ανοίξαμε</div>
+          <div data-en="&lt;b&gt;48 hours&lt;/b&gt;dough rising" data-it="&lt;b&gt;48 ore&lt;/b&gt;di maturazione" data-de="&lt;b&gt;48 Stunden&lt;/b&gt;Teigreifung"><b>48 ώρες</b>ωρίμανση ζύμης</div>
         </div>
       </div>
       <img class="about-photo" src="img/about-dough.jpg" alt="Μπαλάκια ζύμης που ωριμάζουν στο κιβώτιο" loading="lazy">
@@ -259,31 +259,31 @@ footer img{height:36px;width:auto}
     <div class="wrap">
       <div>
         <div class="stars" aria-hidden="true">★★★★★</div>
-        <h2 data-en="Did you enjoy the pizza?" data-it="Vi è piaciuta la pizza?">Σας άρεσε η πίτσα;</h2>
-        <p data-en="Leave us a review on Google. It really helps other people find us." data-it="Lasciateci una recensione su Google. Ci aiuta molto a farci conoscere.">Αφήστε μας μια κριτική στο Google. Μας βοηθάει πολύ να μας βρίσκουν κι άλλοι.</p>
+        <h2 data-en="Did you enjoy the pizza?" data-it="Vi è piaciuta la pizza?" data-de="Hat Ihnen die Pizza geschmeckt?">Σας άρεσε η πίτσα;</h2>
+        <p data-en="Leave us a review on Google. It really helps other people find us." data-it="Lasciateci una recensione su Google. Ci aiuta molto a farci conoscere." data-de="Hinterlassen Sie uns eine Bewertung bei Google. Das hilft anderen sehr, uns zu finden.">Αφήστε μας μια κριτική στο Google. Μας βοηθάει πολύ να μας βρίσκουν κι άλλοι.</p>
       </div>
-      <a class="btn solid" href="https://g.page/r/CUypf5eyeMauEAE/review" target="_blank" rel="noopener" data-en="Write a Google review" data-it="Scrivi una recensione su Google">Γράψτε κριτική στο Google</a>
+      <a class="btn solid" href="https://g.page/r/CUypf5eyeMauEAE/review" target="_blank" rel="noopener" data-en="Write a Google review" data-it="Scrivi una recensione su Google" data-de="Bei Google bewerten">Γράψτε κριτική στο Google</a>
     </div>
   </section>
 
   <section class="band" id="visit">
     <div class="wrap">
-      <div class="eyebrow" data-en="Find us" data-it="Dove trovarci">Βρείτε μας</div>
-      <h2 data-en="Opening hours" data-it="Orari di apertura">Ωράριο λειτουργίας</h2>
+      <div class="eyebrow" data-en="Find us" data-it="Dove trovarci" data-de="So finden Sie uns">Βρείτε μας</div>
+      <h2 data-en="Opening hours" data-it="Orari di apertura" data-de="Öffnungszeiten">Ωράριο λειτουργίας</h2>
       <div class="visit">
         <div>
-          <h3 data-en="Opening hours" data-it="Orari">Ωράριο</h3>
+          <h3 data-en="Opening hours" data-it="Orari" data-de="Öffnungszeiten">Ωράριο</h3>
           <table class="hours" id="hours"></table>
         </div>
         <div class="contact">
-          <h3 data-en="Contact" data-it="Contatti">Επικοινωνία</h3>
-          <a class="row" href="tel:+302244024123"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg><span><span class="big">22440 24123</span><small data-en="Phone for delivery and pick-up" data-it="Telefono per consegna e asporto">Τηλέφωνο για delivery και παραλαβή</small></span></a>
-          <a class="row" href="https://www.google.com/maps/search/?api=1&amp;query=Michele+Pizzeria+Napoletana+Archangelos+Rhodes" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg><span><span data-en="D. Kremastinou, Archangelos, Rhodes" data-it="D. Kremastinou, Archangelos, Rodi">Δ. Κρεμαστινού, Αρχάγγελος Ρόδου</span><small data-en="Open in Google Maps" data-it="Apri in Google Maps">Άνοιγμα στο Google Maps</small></span></a>
+          <h3 data-en="Contact" data-it="Contatti" data-de="Kontakt">Επικοινωνία</h3>
+          <a class="row" href="tel:+302244024123"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg><span><span class="big">22440 24123</span><small data-en="Phone for delivery and pick-up" data-it="Telefono per consegna e asporto" data-de="Telefon für Lieferung und Abholung">Τηλέφωνο για delivery και παραλαβή</small></span></a>
+          <a class="row" href="https://www.google.com/maps/search/?api=1&amp;query=Michele+Pizzeria+Napoletana+Archangelos+Rhodes" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg><span><span data-en="D. Kremastinou, Archangelos, Rhodes" data-it="D. Kremastinou, Archangelos, Rodi" data-de="D. Kremastinou, Archangelos, Rhodos">Δ. Κρεμαστινού, Αρχάγγελος Ρόδου</span><small data-en="Open in Google Maps" data-it="Apri in Google Maps" data-de="In Google Maps öffnen">Άνοιγμα στο Google Maps</small></span></a>
           <a class="row" href="https://www.instagram.com/michele_pizzeria/" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg><span><span>@michele_pizzeria</span><small>Instagram</small></span></a>
-          <div class="row"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0zm10 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0zM3 13l1-4h9l3 4h4a1 1 0 0 1 1 1v3h-2M7 17H3v-4m6 4h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg><span><span data-en="Delivery: Archangelos and Stegna" data-it="Consegna: Archangelos e Stegna">Delivery: Αρχάγγελος και Στεγνά</span><small data-en="Stegna: minimum order €20" data-it="Stegna: ordine minimo 20 €">Στεγνά: ελάχιστη παραγγελία 20€</small></span></div>
+          <div class="row"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0zm10 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0zM3 13l1-4h9l3 4h4a1 1 0 0 1 1 1v3h-2M7 17H3v-4m6 4h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg><span><span data-en="Delivery: Archangelos and Stegna" data-it="Consegna: Archangelos e Stegna" data-de="Lieferung: Archangelos und Stegna">Delivery: Αρχάγγελος και Στεγνά</span><small data-en="Stegna: minimum order €20" data-it="Stegna: ordine minimo 20 €" data-de="Stegna: Mindestbestellwert 20 €">Στεγνά: ελάχιστη παραγγελία 20€</small></span></div>
         </div>
         <div>
-          <h3 data-en="Find us" data-it="Dove siamo">Πού είμαστε</h3>
+          <h3 data-en="Find us" data-it="Dove siamo" data-de="Anfahrt">Πού είμαστε</h3>
           <a class="map" aria-label="Το μαγαζί Michele το βράδυ, άνοιγμα στο Google Maps" href="https://www.google.com/maps/search/?api=1&amp;query=Michele+Pizzeria+Napoletana+Archangelos+Rhodes" target="_blank" rel="noopener"><span class="pin"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span></a>
         </div>
       </div>
@@ -294,7 +294,7 @@ footer img{height:36px;width:auto}
 <footer class="red">
   <div class="wrap">
     <img src="img/logo-white.png" alt="Michele! Pizzeria Napoletana">
-    <span>© <span id="yr"></span> Michele Pizzeria Napoletana · <span data-en="Archangelos, Rhodes" data-it="Archangelos, Rodi">Αρχάγγελος Ρόδου</span></span>
+    <span>© <span id="yr"></span> Michele Pizzeria Napoletana · <span data-en="Archangelos, Rhodes" data-it="Archangelos, Rodi" data-de="Archangelos, Rhodos">Αρχάγγελος Ρόδου</span></span>
   </div>
 </footer>
 
@@ -330,10 +330,12 @@ const MENU = {
 };
 const MENU_EN = {"Marinara":"Tomato sauce, garlic, olive oil, oregano","Margherita":"Tomato sauce, mozzarella, parmesan, olive oil, fresh basil","Speciale":"Tomato sauce, mozzarella, prosciutto cotto, Napoli salami, mushrooms, peppers, bacon","Capricciosa":"Tomato sauce, mozzarella, mushrooms, prosciutto cotto, artichokes, olives","Quattro formaggi":"Mozzarella, scamorza, parmesan, gorgonzola","Pepperone":"Tomato sauce, mozzarella, pepperoni","Piccante":"Tomato sauce, mozzarella, red onion, gorgonzola, nduja, spicy Spianata salami","Salame":"Tomato sauce, mozzarella, red onion, Napoli salami","Alla crema":"Cream, mozzarella, mushrooms, bacon, black pepper","Funghi":"Mascarpone, mozzarella, mushrooms, mushroom purée, white truffle oil","Prosciutto":"Tomato sauce, mozzarella, parmesan, cherry tomatoes, rocket, prosciutto crudo, parmesan flakes","Prosciutto bianco":"Mascarpone, mozzarella, gorgonzola, dried fig cream, rocket, prosciutto crudo","Prosciutto e funghi":"Tomato sauce, mozzarella, prosciutto cotto, mushrooms","Mortadella":"Mascarpone, dill pesto, mozzarella, courgette, mortadella, pistachio","Greca":"Tomato sauce, mozzarella, red onion, peppers, cherry tomatoes, olives, feta, oregano","Chicken BBQ":"BBQ sauce, mozzarella, chicken, bacon, red onion, mushrooms","Verde":"Green salad, raisins, walnuts, green apple, balsamic dressing, parmesan flakes","Burrata":"Cherry tomatoes, shallot dressing, basil, burrata, raspberry jam","Caesare":"Iceberg lettuce, Caesar dressing, croutons, bacon, chicken, parmesan flakes"};
 const MENU_IT = {"Marinara": "Salsa di pomodoro, aglio, olio d’oliva, origano", "Margherita": "Salsa di pomodoro, mozzarella, parmigiano, olio d’oliva, basilico fresco", "Speciale": "Salsa di pomodoro, mozzarella, prosciutto cotto, salame Napoli, funghi, peperoni, bacon", "Capricciosa": "Salsa di pomodoro, mozzarella, funghi, prosciutto cotto, carciofi, olive", "Quattro formaggi": "Mozzarella, scamorza, parmigiano, gorgonzola", "Pepperone": "Salsa di pomodoro, mozzarella, salame piccante pepperoni", "Piccante": "Salsa di pomodoro, mozzarella, cipolla rossa, gorgonzola, ’nduja, salame Spianata piccante", "Salame": "Salsa di pomodoro, mozzarella, cipolla rossa, salame Napoli", "Alla crema": "Panna, mozzarella, funghi, bacon, pepe nero", "Funghi": "Mascarpone, mozzarella, funghi, crema di funghi, olio al tartufo bianco", "Prosciutto": "Salsa di pomodoro, mozzarella, parmigiano, pomodorini, rucola, prosciutto crudo, scaglie di parmigiano", "Prosciutto bianco": "Mascarpone, mozzarella, gorgonzola, crema di fichi secchi, rucola, prosciutto crudo", "Prosciutto e funghi": "Salsa di pomodoro, mozzarella, prosciutto cotto, funghi", "Mortadella": "Mascarpone, pesto all’aneto, mozzarella, zucchine, mortadella, pistacchio", "Greca": "Salsa di pomodoro, mozzarella, cipolla rossa, peperoni, pomodorini, olive, feta, origano", "Chicken BBQ": "Salsa BBQ, mozzarella, pollo, bacon, cipolla rossa, funghi", "Verde": "Insalata verde, uvetta, noci, mela verde, condimento al balsamico, scaglie di parmigiano", "Burrata": "Pomodorini, condimento allo scalogno, basilico, burrata, marmellata di lamponi", "Caesare": "Lattuga iceberg, salsa Caesar, crostini, bacon, pollo, scaglie di parmigiano"};
+const MENU_DE = {"Marinara": "Tomatensauce, Knoblauch, Olivenöl, Oregano", "Margherita": "Tomatensauce, Mozzarella, Parmesan, Olivenöl, frisches Basilikum", "Speciale": "Tomatensauce, Mozzarella, Prosciutto cotto, Salami Napoli, Pilze, Paprika, Bacon", "Capricciosa": "Tomatensauce, Mozzarella, Pilze, Prosciutto cotto, Artischocken, Oliven", "Quattro formaggi": "Mozzarella, Scamorza, Parmesan, Gorgonzola", "Pepperone": "Tomatensauce, Mozzarella, scharfe Pepperoni-Salami", "Piccante": "Tomatensauce, Mozzarella, rote Zwiebeln, Gorgonzola, ’Nduja, scharfe Spianata-Salami", "Salame": "Tomatensauce, Mozzarella, rote Zwiebeln, Salami Napoli", "Alla crema": "Sahne, Mozzarella, Pilze, Bacon, schwarzer Pfeffer", "Funghi": "Mascarpone, Mozzarella, Pilze, Pilzpüree, weißes Trüffelöl", "Prosciutto": "Tomatensauce, Mozzarella, Parmesan, Kirschtomaten, Rucola, Prosciutto crudo, Parmesanspäne", "Prosciutto bianco": "Mascarpone, Mozzarella, Gorgonzola, Creme aus getrockneten Feigen, Rucola, Prosciutto crudo", "Prosciutto e funghi": "Tomatensauce, Mozzarella, Prosciutto cotto, Pilze", "Mortadella": "Mascarpone, Dillpesto, Mozzarella, Zucchini, Mortadella, Pistazien", "Greca": "Tomatensauce, Mozzarella, rote Zwiebeln, Paprika, Kirschtomaten, Oliven, Feta, Oregano", "Chicken BBQ": "BBQ-Sauce, Mozzarella, Hähnchen, Bacon, rote Zwiebeln, Pilze", "Verde": "Grüner Salat, Rosinen, Walnüsse, grüner Apfel, Balsamico-Dressing, Parmesanspäne", "Burrata": "Kirschtomaten, Schalotten-Dressing, Basilikum, Burrata, Himbeermarmelade", "Caesare": "Eisbergsalat, Caesar-Dressing, Croûtons, Bacon, Hähnchen, Parmesanspäne"};
 const T = {
   el:{hot:"Καυτερή",veg:"Χορτοφαγική",days:["Δευτέρα","Τρίτη","Τετάρτη","Πέμπτη","Παρασκευή","Σάββατο","Κυριακή"],closed:"Κλειστά",openNow:"Ανοιχτά τώρα",opensAt:"Ανοίγουμε σήμερα στις ",closedToday:"Σήμερα κλειστά",copy:"Αντιγραφή",copied:"Αντιγράφηκε",btn:"Γλώσσα"},
   en:{hot:"Spicy",veg:"Vegetarian",days:["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],closed:"Closed",openNow:"Open now",opensAt:"We open today at ",closedToday:"Closed today",copy:"Copy",copied:"Copied",btn:"Language"},
-  it:{hot:"Piccante",veg:"Vegetariana",days:["Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato","Domenica"],closed:"Chiuso",openNow:"Aperto ora",opensAt:"Apriamo oggi alle ",closedToday:"Oggi chiuso",copy:"Copia",copied:"Copiato",btn:"Lingua"}
+  it:{hot:"Piccante",veg:"Vegetariana",days:["Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato","Domenica"],closed:"Chiuso",openNow:"Aperto ora",opensAt:"Apriamo oggi alle ",closedToday:"Oggi chiuso",copy:"Copia",copied:"Copiato",btn:"Lingua"},
+  de:{hot:"Scharf",veg:"Vegetarisch",days:["Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag","Sonntag"],closed:"Geschlossen",openNow:"Jetzt geöffnet",opensAt:"Heute geöffnet ab ",closedToday:"Heute geschlossen",copy:"Kopieren",copied:"Kopiert",btn:"Sprache"}
 };
 let LANG="el", CAT="pizza";
 const PHOTO = {"Salame":"salame","Chicken BBQ":"chicken-bbq-2","Marinara":"marinara","Margherita":"margherita","Speciale":"speciale","Capricciosa":"capricciosa","Quattro formaggi":"quattro-formaggi","Pepperone":"pepperone","Piccante":"piccante","Alla crema":"alla-crema","Funghi":"funghi","Prosciutto":"prosciutto","Prosciutto bianco":"prosciutto-bianco","Prosciutto e funghi":"prosciutto-e-funghi","Mortadella":"mortadella","Greca":"greca","Verde":"verde","Burrata":"burrata","Caesare":"caesare","Tiramis\u00f9":"tiramisu-1","Calzone Nutella":"calzone-nutella"};
@@ -342,7 +344,7 @@ function renderMenu(cat){
   CAT=cat;
   document.getElementById("pizzaSize").classList.toggle("off",cat!=="pizza");
   document.getElementById("items").innerHTML = MENU[cat].map(([n,d,p,t])=>`
-    <div class="item">${PHOTO[n]?`<img class="thumb" src="img/t/${PHOTO[n]}.jpg?v=2" alt="${n}" loading="lazy">`:'<span class="thumb none" aria-hidden="true"></span>'}<div class="txt"><h3>${n}${t?`<span class="tag ${t}">${T[LANG][t]}</span>`:''}</h3>${d?`<p>${({en:MENU_EN,it:MENU_IT}[LANG]||{})[n]||d}</p>`:''}</div>
+    <div class="item">${PHOTO[n]?`<img class="thumb" src="img/t/${PHOTO[n]}.jpg?v=2" alt="${n}" loading="lazy">`:'<span class="thumb none" aria-hidden="true"></span>'}<div class="txt"><h3>${n}${t?`<span class="tag ${t}">${T[LANG][t]}</span>`:''}</h3>${d?`<p>${({en:MENU_EN,it:MENU_IT,de:MENU_DE}[LANG]||{})[n]||d}</p>`:''}</div>
     <span class="price">${fmt(p)}</span></div>`).join("");
   document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected", b.dataset.cat===cat));
   document.getElementById("items").setAttribute("aria-labelledby","tab-"+cat);
@@ -390,7 +392,7 @@ document.addEventListener("click",e=>{if(!LM.hidden&&!LM.contains(e.target))open
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!LM.hidden){openLM(false);LB.focus()}});
 (function(){
   let l=null; try{l=localStorage.getItem("lang")}catch(e){}
-  if(!["el","en","it"].includes(l)){const n=(navigator.language||"el").toLowerCase();l=n.startsWith("el")?"el":n.startsWith("it")?"it":"en";}
+  if(!["el","en","it","de"].includes(l)){const n=(navigator.language||"el").toLowerCase();l=n.startsWith("el")?"el":n.startsWith("it")?"it":n.startsWith("de")?"de":"en";}
   setLang(l);
 })();
 </script>
